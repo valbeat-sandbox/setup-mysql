@@ -1,6 +1,6 @@
 mysql_service 'default' do
   version '5.7'
-  initial_root_password ''
+  initial_root_password 'password'
   action [:create, :start]
 end
 
