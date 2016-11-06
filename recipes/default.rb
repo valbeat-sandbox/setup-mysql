@@ -1,6 +1,7 @@
 mysql_service 'default' do
-  version '5.7'
-  initial_root_password 'password'
+  port '3306' 
+  version '5.6'
+  initial_root_password ''
   action [:create, :start]
 end
 
